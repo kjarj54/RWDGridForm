@@ -7,11 +7,11 @@
   --color-cinco: #000;*/
 
   --text-color: #000;
-  --color-uno: #f9c80e;
-  --color-dos: #f86624;
-  --color-tres: #ea3546;
-  --color-cuatro: #662e9b;
-  --color-cinco: #43bccd;
+  --color-uno: #f67280;
+  --color-dos: #c5e0dc;
+  --color-tres: #f8a978;
+  --color-cuatro: #f0f3bd;
+  --color-cinco: #c06c84;
 }
 
 * {
@@ -136,17 +136,17 @@ ul {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    #banner {
-      display: block;
-      width: 100%;
-      height: auto;
-      margin: 1em 0;
-    }
+  #banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
   }
-  
-  /* OTHER SIZES */
-  @media (max-width: 767px) or (min-width: 1025px) {
-    #banner {
-      display: none;
-    }
+}
+
+/* OTHER SIZES */
+@media (max-width: 767px) or (min-width: 1025px) {
+  #banner {
+    display: none;
   }
+}
