@@ -1,10 +1,19 @@
+:root{
+    --text-color: #fff;
+    --color-uno: #B70E21;
+    --color-dos: #d63031;
+    --color-tres: #222222;
+    --color-cuatro: #181818;
+    --color-cinco: #000;
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     background: #181818;
-    color: #fff;
+    color: var(--text-color);
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
     padding: 0 1.5em;
@@ -69,7 +78,7 @@ ul {
     border: none;
     background: none;
     outline: 0;
-    color: #fff;
+    color:  var(--text-color);
     border-bottom: 1px solid #d63031;
 }
 
@@ -83,7 +92,7 @@ ul {
 .contact-form form button:hover,
 .contact-form form button:focus {
     background: #d63031;
-    color: #fff;
+    color:  var(--text-color);
     transition: background-color 1s ease-out;
     outline: 0;
 }
